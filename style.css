@@ -1,0 +1,109 @@
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f9f5;
+    color: #333;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f9f5;
+    color: #333;
+}
+
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+
+.hero {
+    background: linear-gradient(
+        rgba(0, 60, 25, 0.75),
+        rgba(242, 243, 242, 0.75)
+    ),
+    url("image.png");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+
+.feature {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.feature h3 {
+    color: #198754;
+}
+
+
+.service-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-7px);
+}
+
+
+.call-to-action {
+    background-color: #198754;
+}
+
+
+footer {
+    background-color: #064d2b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
